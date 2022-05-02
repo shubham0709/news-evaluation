@@ -1,0 +1,27 @@
+#sidebar{
+    display: none;
+}
+body{
+    margin:0;
+}
+.news {
+    border: 2px solid red;
+    min-height: 200px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    cursor: pointer;
+  }
+
+  .news>img {
+    height: 250px;
+    aspect-ratio: 1/1;
+  }
+
+  .news_details {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+    margin: auto;
+  }
